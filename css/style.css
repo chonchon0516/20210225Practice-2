@@ -489,6 +489,7 @@ body {
   text-align: center;
   color: #fff;
 }
+
 /*------------------------*/
 /*     responsible     */
 /*------------------------*/
@@ -538,8 +539,11 @@ body {
   /*     catchcopy   */
   /*------------------------*/
   .catchcopy {
+    position: relative;
+    top: 20%;
     width: 70%;
     text-align: center;
+
   }
 
   /*------------------------*/
@@ -630,4 +634,29 @@ body {
     background: #000;
     margin: 0 auto 10%;
   }
+  /*------------------------*/
+  /*        contact         */
+  /*------------------------*/
+  .contact-subtitle {
+    margin: 10px auto;
+    width: 80%;
+    text-align: center;
+    padding: 5px;
+  }
+  .contact-text {
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+  }
+
+  .contact-btn {
+    margin-top: 20px;
+  }
+  .flex {
+    display: initial;
+  }
+  .top-footer small {
+    color: #fff;
+    font-size: 18px;
+}
 }
